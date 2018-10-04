@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaSbtSettings">
+    <option name="customLauncherEnabled" value="true" />
+    <option name="customLauncherPath" value="/media/hsingh/ExtraDrive1/sdkman/candidates/sbt/0.13.15/bin/sbt-launch.jar" />
+    <option name="customVMPath" value="$PROJECT_DIR$/../../../sdkman/candidates/java/current" />
+    <option name="linkedExternalProjectsSettings">
+      <SbtProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="/media/hsingh/ExtraDrive1/projects/loci/loci-commons" />
+            <option value="/media/hsingh/ExtraDrive1/projects/loci/loci-commons/project" />
+          </set>
+        </option>
+        <option name="sbtVersion" value="1.2.3" />
+      </SbtProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,24 @@
+[0m[[0m[31merror[0m] [0m[0m/media/hsingh/ExtraDrive1/projects/loci/loci-commons/src/main/scala/com/loci/LociKafkaConsumer.scala:60:29: No TypeTag available for K[0m
+[0m[[0m[31merror[0m] [0m[0m    KafkaConsumerActor.props(kafkaConfig, actorConfig, self)[0m
+[0m[[0m[31merror[0m] [0m[0m                            ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/hsingh/ExtraDrive1/projects/loci/loci-commons/src/main/scala/com/loci/LociKafkaConsumer.scala:63:86: missing argument list for method f in class LociKafkaConsumerSelfManaged[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `f _` or `f(_)(_)` instead of `f`.[0m
+[0m[[0m[31merror[0m] [0m[0m  val recordsExt: Extractor[Any, ConsumerRecords[K, V]] = ConsumerRecords.extractor(f[K],f[V])[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/media/hsingh/ExtraDrive1/projects/loci/loci-commons/src/main/scala/com/loci/LociKafkaConsumer.scala:63:91: missing argument list for method f in class LociKafkaConsumerSelfManaged[0m
+[0m[[0m[31merror[0m] [0m[0mUnapplied methods are only converted to functions when a function type is expected.[0m
+[0m[[0m[31merror[0m] [0m[0mYou can make this conversion explicit by writing `f _` or `f(_)(_)` instead of `f`.[0m
+[0m[[0m[31merror[0m] [0m[0m  val recordsExt: Extractor[Any, ConsumerRecords[K, V]] = ConsumerRecords.extractor(f[K],f[V])[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                                          ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/media/hsingh/ExtraDrive1/projects/loci/loci-commons/src/main/scala/com/loci/LociKafkaConsumer.scala:48:42: parameter value kafkaConfig in class LociKafkaConsumerSelfManaged is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0mclass LociKafkaConsumerSelfManaged[K, V](kafkaConfig: KafkaConsumer.Conf[K, V],[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/media/hsingh/ExtraDrive1/projects/loci/loci-commons/src/main/scala/com/loci/LociKafkaConsumer.scala:49:42: parameter value actorConfig in class LociKafkaConsumerSelfManaged is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         actorConfig: KafkaConsumerActor.Conf,[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                         ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/media/hsingh/ExtraDrive1/projects/loci/loci-commons/src/main/scala/com/loci/LociKafkaConsumer.scala:56:12: parameter value a in method f is never used[0m
+[0m[[0m[33mwarn[0m] [0m[0m  def f[K](a: K)(implicit evA: TypeTag[K])= evA[0m
+[0m[[0m[33mwarn[0m] [0m[0m           ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
+[0m[[0m[31merror[0m] [0m[0mthree errors found[0m
